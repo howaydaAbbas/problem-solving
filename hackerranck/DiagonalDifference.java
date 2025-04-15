@@ -1,5 +1,8 @@
+package hackerranck;
+
 import java.util.List;
 
+// Hacker Rank
 public class DiagonalDifference {
 
     public static int getDiagonalDifference(List<List<Integer>> arr) {
