@@ -25,7 +25,12 @@ public class Solution {
         System.out.println(RemoveDuplicatesFromSortedArrayII.removeDuplicates(nums)); */
 
         // is valid palindrome
-        String s = "0P";
-        System.out.println(ValidPalindrome.isPalindrome(s));
+        /* String s = "0P";
+        System.out.println(ValidPalindrome.isPalindrome(s)); */
+
+        // is subsequence
+        String s = "abc";
+        String t = "abxxctabc";
+        System.out.println(IsSubsequence.isSubsequence(s,t));
     }
 }
