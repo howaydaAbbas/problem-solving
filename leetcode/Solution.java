@@ -29,8 +29,15 @@ public class Solution {
         System.out.println(ValidPalindrome.isPalindrome(s)); */
 
         // is subsequence
-        String s = "abc";
+        /* String s = "abc";
         String t = "abxxctabc";
-        System.out.println(IsSubsequence.isSubsequence(s,t));
+        System.out.println(IsSubsequence.isSubsequence(s,t)); */
+
+        // Two sum II
+        int[] nums = {2,3,4};
+        int [] result = TwoSumII.twoSum(nums, 6);
+        for(int num : result){
+            System.out.println(num);
+        }
     }
 }
