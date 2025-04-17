@@ -34,10 +34,15 @@ public class Solution {
         System.out.println(IsSubsequence.isSubsequence(s,t)); */
 
         // Two sum II
-        int[] nums = {2,3,4};
+       /* int[] nums = {2,3,4};
         int [] result = TwoSumII.twoSum(nums, 6);
         for(int num : result){
             System.out.println(num);
-        }
+        } */
+
+        // Anagram
+        String s = "anagram";
+        String t = "anaragm";
+        System.out.println(Anagram.isAnagram(s,t));
     }
 }
