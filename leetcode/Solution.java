@@ -40,9 +40,9 @@ public class Solution {
             System.out.println(num);
         } */
 
-        // Anagram
-        String s = "anagram";
+        // Valid Anagram
+        /* String s = "anagram";
         String t = "anaragm";
-        System.out.println(Anagram.isAnagram(s,t));
+        System.out.println(Anagram.isAnagram(s,t)); */
     }
 }
