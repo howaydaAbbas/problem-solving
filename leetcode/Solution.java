@@ -21,7 +21,11 @@ public class Solution {
         System.out.println(RemoveDuplicatesFromSortedArray.removeDuplicates(nums)); */
 
         // Remove Duplicates from sorted arrayII
-        int[] nums = {0,0,1,1,1,1,2,3,3};
-        System.out.println(RemoveDuplicatesFromSortedArrayII.removeDuplicates(nums));
+       /* int[] nums = {0,0,1,1,1,1,2,3,3};
+        System.out.println(RemoveDuplicatesFromSortedArrayII.removeDuplicates(nums)); */
+
+        // is valid palindrome
+        String s = "0P";
+        System.out.println(ValidPalindrome.isPalindrome(s));
     }
 }
