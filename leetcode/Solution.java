@@ -46,8 +46,12 @@ public class Solution {
         System.out.println(Anagram.isAnagram(s,t)); */
 
         // Is Isomorphic
-        String s = "egg";
+        /* String s = "egg";
         String t = "add";
-        System.out.println(Isomorphic.isIsomorphic(s,t));
+        System.out.println(Isomorphic.isIsomorphic(s,t)); */
+
+        // Valid parentheses
+        String s = "(";
+        System.out.println(ValidParentheses.isValid(s));
     }
 }
