@@ -44,5 +44,10 @@ public class Solution {
         /* String s = "anagram";
         String t = "anaragm";
         System.out.println(Anagram.isAnagram(s,t)); */
+
+        // Is Isomorphic
+        String s = "egg";
+        String t = "add";
+        System.out.println(Isomorphic.isIsomorphic(s,t));
     }
 }
